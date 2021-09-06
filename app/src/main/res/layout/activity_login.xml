@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WalkALoop Admin"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/black"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txt_username"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_border_edittext"
+        android:hint="Username"
+        android:padding="10dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txt_password"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_border_edittext"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#3bbdfa"
+        android:text="Login"/>
+
+</LinearLayout>
